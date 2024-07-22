@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #eceef6;
+    
+}
+.container{
+    width: 75%;
+    margin: 0px;
+}
+.header{
+    line-height: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-radius: 15px;}
+.logo{
+    text-align: center;
+    font-size: 25px;
+    margin: 40px 40px;
+    color: rgb(95, 148, 247);
+}
+.logo:hover{
+    color: rgb(180, 206, 246);
+}
+.menu nav{
+    display: flex;
+    margin: 40px 0;
+}
+.menu nav a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    font-size: larger;
+    
+}
+.menu nav a:hover{
+    background-color: #cddcf3;
+}
+.search{
+    margin: 30px 20px;
+    border: none;
+    
+}
+.search input{
+    font-size: 30px;
+    width: 100px;
+  transition: all 1s;
+  cursor: pointer;
+  border-radius: 15px;
+  text-shadow: none;
+}
+.search input:hover{
+   width: 200px;
+}
+.main{
+    display: flex;
+    max-width: 100%;
+}
+aside{
+    
+    max-width: 25%;
+}
+.aside1{
+    background-color: white;
+    border-radius: 15px;
+}
+.aside1 .image{
+    
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+    padding: 20px;
+    
+
+}
+.image{
+    border-radius: 15px;
+}
+.title{
+    color: black;
+    text-align: center;
+    margin: 5px;
+    font-size: 25px;
+}
+.aside1 p{
+    text-align: center;
+    color: rgb(182, 182, 182);
+    font-size: large;
+    margin: 10px;
+    padding: 10px;
+}
+.aside2{
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+.aside2 a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding: 10px 0;
+}
+.aside2 .title1{
+    color: black;
+    font-size: large;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.aside3{
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.title3 a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+.title3 p{
+    font-size: large;
+}
+footer{
+    line-height: 20px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 30px;
+text-align: center ;
+}
+footer p{
+    padding: 20px;
+    color: rgb(195, 191, 191);
+}
+footer p a{
+    text-decoration: none;
+    color: rgb(142, 189, 255);
+}
+footer p a:hover{
+    background-color: rgb(184, 229, 249);
+}
+.content{
+    width: 100%;
+    padding: 20px;
+}
+.block1{
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+   margin-bottom: 25px;
+
+}
+.tieude a{
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+    font-style:initial;
+    padding-bottom: 10px;
+}
+.tieude a:hover{
+    color: rgb(145, 182, 252);
+}
+.title4{
+    color: rgb(184, 182, 182);
+    padding: 10px;
+}
+.tieude p{
+    
+    padding: 10px;
+}
+
+.block2{
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.tieude2 a{
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+
+}
+.tieude2 p{
+   
+    padding: 10px;
+}
+.imgbl2{
+    border-radius: 15px;
+}
+.title5{
+    color: rgb(184, 182, 182);
+    padding: 10px;
+}
+.tieude2 a:hover{
+    color: rgb(145, 182, 252);
+}
+.block3{
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.tieude3 a{
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+
+}
+.tieude2 p{
+   
+    padding: 10px;
+}
+.block4{
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.tieude4 a{
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+
+}
+.title6{
+    color: rgb(184, 182, 182);
+    padding: 10px;
+}
+
